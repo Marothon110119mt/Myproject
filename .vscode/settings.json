@@ -1,0 +1,7 @@
+{
+    "i18n-ally.localesPaths": [
+        "resources/lang",
+        "public/bootstrap/js/locales",
+        "public/select2/src/js/select2/i18n"
+    ]
+}

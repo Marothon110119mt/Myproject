@@ -1,0 +1,140 @@
+              <div class="modal-body">
+                  <div class="row">
+                      <div class="col-md-5">
+                        <div>
+                            <img src="assets/images/aba.jpg" alt="" onclick="audio1.play()"  id="aba" width="24%">
+                            <img src="assets/images/acleda.png" alt="" onclick="audio1.play()" id="acleda" width="24%">
+                            <img src="assets/images/wing.png" alt="" onclick="audio1.play()" id="wing" width="24%">
+                            <img src="assets/images/foodpanda.webp" alt="" onclick="audio1.play()" id="foodpanda" width="24%">
+                          </div>
+                          <br>
+                           <div class="col-md-12">
+                           <div class="col-md-6">
+                            <img src="assets/images/5.jpg" alt="" onclick="$('#payment').val('5');audio.play();" width="100%"><br>
+                            <img src="assets/images/10.jpg" alt="" onclick="$('#payment').val('10');audio.play()" width="100%"><br>
+                            <img src="assets/images/20.jpg" alt="" onclick="$('#payment').val('20');audio.play()" width="100%"><br>
+                            <img src="assets/images/50.jpg" alt="" onclick="$('#payment').val('50');audio.play()" width="100%"><br>
+                            <img src="assets/images/100.jpg" alt="" onclick="$('#payment').val('100');audio.play()" width="100%">
+                           </div>
+                           <div class="col-md-6">
+                            <img src="assets/images/5000.jpg" alt="" onclick="$('#paymentkhmer').val('5000');audio.play()" width="85%"><br>
+                            <img src="assets/images/10000.jpg" alt="" onclick="$('#paymentkhmer').val('10000');audio.play()" width="85%"><br>
+                            <img src="assets/images/20000.jpg" alt="" onclick="$('#paymentkhmer').val('20000');audio.play()" width="85%"><br>
+                            <img src="assets/images/50000.jpg" alt="" onclick="$('#paymentkhmer').val('50000');audio.play()" width="85%"><br>
+                            <img src="assets/images/100000.jpg" alt="" onclick="$('#paymentkhmer').val('100000');audio.play()" width="85%"><br>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="list-group">
+                                    <select name="" id="Marothon" class="form-control">
+                                    </select>
+                                  </div>
+                            </div>
+                            <div class="col-md-6 input-group">
+                            <table>
+                                <tr>
+                                    <th>
+                                        Total Payable $
+                                    </th>
+                                    <td>
+                                    <input id="payablePrice" readonly type="number"  class="form-control" aria-describedby="basic-addon3">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Total Payable ៛
+                                    </th>
+                                    <td>
+                                    <input id="payablePricekhmer" readonly type="number"  class="form-control" aria-describedby="basic-addon3">
+                                    </td>
+                                </tr>
+                            </table>
+                            </div>
+                        </div>
+                          <br>
+                          <div class="col-md-6">
+                          <div class="input-group">
+                              <span class="input-group-addon" id="basic-addon3">Payment  <span id="payment_curr"></span> </span>
+                              <input type="text" placeholder="0.0" class="form-control" id="payment" aria-describedby="basic-addon3">
+                          </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">Payment khmer  <span>៛</span> </span>
+                                <input type="text" placeholder="0.0" class="form-control" id="paymentkhmer" aria-describedby="basic-addon3">
+                            </div>
+                            </div>
+                          <hr><br>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="row">
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(1,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">1</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(2,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">2</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(3,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">3</button>
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <div class="row">
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(4,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">4</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(5,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">5</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(6,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">6</button>
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <div class="row">
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(7,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">7</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(8,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">8</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(9,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">9</button>
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <div class="row">
+                                      <div class="col-md-4">
+                                          <button onclick="$('#payment').val($('#payment').val().substr(0,$('#payment').val().length -1));$(this).calculateChange();" class="btn btn-success btn-lg btn-block" style="height: 60px;">⌫</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).go(0,false);" class="btn btn-success btn-lg btn-block" style="height: 60px;">0</button>
+                                      </div>
+                                      <div class="col-md-4">
+                                          <button onclick="$(this).digits()" class="btn btn-success btn-lg btn-block" style="height: 60px;">.</button>
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <div class="row">
+                                      <div class="col-md-4">
+                                      </div>
+                                      <div class="col-md-4">
+                                      </div>
+                                      <div class="col-md-4">
+                                  <button onclick="$('#payment').val('');$(this).calculateChange();" class="btn btn-danger btn-block btn-lg" 
+                                  style="height: 60px;">AC</button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <br>
+                          <div class="input-group" id="cardInfo">
+                              <span class="input-group-addon" id="basic-addon3">Card Info </span>
+                              <input type="text" class="form-control" id="paymentInfo" aria-describedby="basic-addon3">
+                          </div>
+                      </div>
+                  </div>
+              </div>
